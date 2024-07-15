@@ -1,0 +1,86 @@
+
+	
+	/***** Contact form *****/
+#form1 {
+	position:relative;
+	vertical-align:top;
+	z-index:1;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#form1 fieldset {
+border:none;
+padding:0;
+}
+
+
+#form1 label {display:block; height:50px; position:relative;width: 390px;}
+#form1 label.message { height:237px; width:390px; }
+
+#form1 input {
+	outline: none;
+	border:1px solid #ececec;
+	color: #8e8c7d;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+	background:#f7f7f7;
+	padding:13px 11px;
+	border-radius:12px;
+	height:15px;
+	line-height:15px;
+    width: 366px;
+	display:inline-block;
+}
+#form1 .area .error { float:none;}
+#form1 textarea {
+    background: none repeat scroll 0 0 #F7F7F7;
+    border: 1px solid #ECECEC;
+    border-radius: 12px 12px 12px 12px;
+    color: #8E8C7D;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 184px;
+    margin: 0;
+	line-height:15px;
+    outline: medium none;
+    overflow: auto;
+    padding: 13px 11px;
+    resize: none;
+    width: 366px;
+}
+#form1 a {cursor:pointer;}
+#form1 .success {
+	display:none;
+	position: absolute;
+	left: 0px;
+	top: -19px;
+	color:#717171;
+	font-size:12px;
+}
+#form1 .error,
+#form1 .empty {
+	color:#f00;
+	font-size:11px;
+	line-height:1.25em;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow:hidden;
+	position:absolute;
+	right:3px;
+	top:3px;
+}
+#form1 .message .error,
+#form1 .message .empty  {
+	right: 4px;
+    top: 197px;
+}
+
+.p27 {
+	margin-right:17px;
+}
+
+.link-form {
+	float: right;
+}

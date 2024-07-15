@@ -1,0 +1,10 @@
+
+
+
+.sf-menu ul,
+.page1-box2,
+.page6-img1,
+.sf-menu li,
+#form1 textarea,
+#form1 input
+{behavior:url(js/PIE.htc);position:relative}
